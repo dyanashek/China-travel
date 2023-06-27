@@ -16,6 +16,11 @@ A telegram bot representing the services of a company for the delivery of goods 
 - /stat - displays information about all users who have used the bot for the first time since the last time this command was entered (only **DIRECTOR_ID** is available);
 - /user - the command that the manager enters, indicating the nickname of the user who contacted him (counts the user in the manager's statistics, **MANAGER_ID** is available);
 ## Installation and use:
+- The config.py file contains variables with media files that the bot has access to - you need to add your own there:
+**STOCK_MEDIA**
+**REVIEWS_MEDIA_IMAGES**
+**REVIEWS_MEDIA_VIDEO**
+- The static folder contains files that are sent by the bot, when replacing, you must save the names
 - Create an .env file containing the following variables:
 > the file is created in the root folder of the project
    - specify the bot's telegram token in the file:\
